@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "dzeta",
+	"version": "${version}",
+	"name": "DZeta",
+	"description": "Visuals, HUD and utilities with a ClickGUI menu. Press Right Shift to open.",
+	"authors": ["DZeta"],
+	"license": "CC0-1.0",
+	"icon": "assets/dzeta/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": ["dzeta.DZetaMod"],
+		"client": ["dzeta.client.DZetaClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
